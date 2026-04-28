@@ -18,8 +18,9 @@ public class ModCreativeModTabs {
             () ->  CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.fries.get()))
                     .title(Component.translatable("creativetabe.mcduckie_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                    output.accept(Moditems.fries.get());
+                    output.accept(Moditems.FRIES.get());
                     output.accept(Moditems.DRDUCKIE.get());
+                    output.accept(Moditems.BRUGER.get());
                     })
                     .build());
 
