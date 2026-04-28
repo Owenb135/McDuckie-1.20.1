@@ -49,8 +49,9 @@ public class Duckiemod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Moditems.fries);
+            event.accept(Moditems.FRIES);
             event.accept(Moditems.DRDUCKIE);
+            event.accept(Moditems.BRUGER);
         }
     }
 
