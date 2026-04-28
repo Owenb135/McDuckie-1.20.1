@@ -10,10 +10,12 @@ import net.minecraftforge.registries.RegistryObject;
 public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Duckiemod.MODID);
-
-    public static final RegistryObject<Item> fries = ITEMS.register("fries",
+    public static final RegistryObject<Item> FRIES = ITEMS.register("fries",
             () -> new Item(new Item.Properties()));
+    // Remember that after listing "<Item>" make name all caps
     public static final RegistryObject<Item> DRDUCKIE = ITEMS.register("drduckie",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRUGER ITEMS.register("bruger",
             () -> new Item(new Item.Properties()));
 
 
